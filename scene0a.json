@@ -1,0 +1,185 @@
+{ 
+"COMMENT": "A CUBE, SPHERE, AND DIRECTIONAL LIGHTS",
+"type": "node",
+"name": "rootNode",
+
+"children":
+[
+	{
+		"COMMENT": "CAMERA LOOKING AT ORIGIN FROM ALONG THE Z AXIS",
+		"type": "perspectiveCamera",
+		"name": "camera1",
+		"eye": [0, 0, 12],
+		"center": [0, 0, 0],
+		"vup": [0, 1, 0],
+		"fov": 30
+	},
+	{
+		"COMMENT": "DIRECTIONAL LIGHT",
+		"type": "directionalLight",
+		"name": "light1",
+		"color": [1, 1, 1],
+		"position": [0, 0, 0.5]
+	},
+	{
+		"COMMENT": "Frosty's Head",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, 1.45, 0],
+		"geometry": "sphere",
+		"radius": 0.75,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [1, 1, 1]
+		}
+	},
+	{
+		"COMMENT": "Frosty's Body",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, 0, 0],
+		"geometry": "sphere",
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [1, 1, 1]
+		}
+	},
+	{
+		"COMMENT": "Frosty's Bum",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, -1.5, 0],
+		"geometry": "sphere",
+		"radius": 1.2,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [1, 1, 1]
+		}
+	},
+	{
+		"COMMENT": "Button 1",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, 0.45, 1],
+		"geometry": "sphere",
+		"radius": 0.05,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [0, 0, 0]
+		}
+	},
+	{
+		"COMMENT": "Button 2",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, 0.1, 1],
+		"geometry": "sphere",
+		"radius": 0.05,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [0, 0, 0]
+		}
+	},
+	{
+		"COMMENT": "Button 3",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, -0.25, 1],
+		"geometry": "sphere",
+		"radius": 0.05,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [0, 0, 0]
+		}
+	},
+	{
+		"COMMENT": "Left Eye",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [-0.15, 1.6, 1],
+		"geometry": "sphere",
+		"radius": 0.05,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [0, 0, 0]
+		}
+	},
+	{
+		"COMMENT": "Right Eye",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0.15, 1.6, 1],
+		"geometry": "sphere",
+		"radius": 0.05,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [0, 0, 0]
+		}
+	},
+	{
+		"COMMENT": "Nose",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, 1.35, 1],
+		"geometry": "sphere",
+		"radius": 0.05,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [1, 0.5, 0]
+		}
+	},
+	{
+		"COMMENT": "Tooth",
+		"type": "mesh",
+		"name": "sphere1",
+		"translate": [0, 1.1, 1],
+		"geometry": "sphere",
+		"radius": 0.08,
+		"widthSegments": 32,
+		"heightSegments": 16,
+		"material": 
+		{
+			"type": "meshLambertMaterial",
+			"name": "sphereMat",
+			"diffuseColor": [0, 0, 0]
+		}
+	}
+]
+}
+
